@@ -30,4 +30,35 @@ align-self: center;}
 }
 
 
+main {
 
+    background-color: gray;
+    margin-left: 20px;
+}
+
+#seccion2 {width:500px;}
+main > section > h3 {
+
+    border:3px solid black;
+    padding: 15px;
+    background-color: antiquewhite;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main:hover{background-color: aqua;}
+
+ol > li {
+    list-style-type: circle;
+list-style-position: inside;}
+
+ul > li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+li::marker {
+    font: size 16px;
+    color: red;
+}
